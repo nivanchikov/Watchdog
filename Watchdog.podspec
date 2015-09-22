@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/wojteklukaszuk/Watchdog.git", :tag => s.version }
   s.social_media_url = 'https://twitter.com/wojteklukaszuk'
 
-  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Classes/*.swift'
